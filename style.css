@@ -171,6 +171,114 @@ body {
 .footer-logo img {
     width: 70%;
 }
-.copyright-text{
+
+.copyright-text {
     margin-bottom: 63px;
+}
+
+/* Media Queries */
+
+@media (max-width:688px) {
+
+    /* Header Section */
+    .header-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-description-section {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .description-text {
+        font-family: Poppins;
+        font-weight: bold;
+        font-size: 36px;
+        color: #FFFFFF;
+    }
+
+    .header-banner-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-banner-section img {
+        width: 200%;
+    }
+
+
+    /* Player Section */
+    .players {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .player {
+        margin: 24px 0px;
+        padding: 15px;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Highlight Section */
+    .highlight-section {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 0;
+    }
+
+    .highlight-description-section {
+        display:flex;
+        justify-content:center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .highlight-description-text h3 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        color: #0A0826;
+    }
+
+    .highlight-description-text p {
+        font-family: Poppins;
+
+        font-weight: normal;
+        font-size: 16px;
+        color: #6C6C6C;
+
+    }
+
+    .highlight-description-anchor {
+        margin-bottom: 5px;
+    }
+
+    .highlight-banner-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .highlight-banner-section img {
+        margin-top: 20px;
+        width: 200%;
+    }
+
+    /* Footer-Section */
+    .footer-section{
+        margin-top: 54px;
+    }
+    .footer-logo{
+        display:flex;
+        justify-content:center;
+    }
 }
